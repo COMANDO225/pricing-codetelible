@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-	@apply bg-gray-900;
+	@apply bg-[#f5f5f5];
+}
+
+.grilla {
+	@apply space-y-8 lg:grid sm:gap-3 xl:gap-5 lg:space-y-0;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
