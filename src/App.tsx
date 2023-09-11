@@ -8,12 +8,12 @@ function App() {
 					{/* CABEZERA */}
 					<div className='mx-auto max-w-screen-md text-center mb-8 lg:mb-12'>
 						<h2 className='mb-4 text-4xl tracking-tight font-extrabold text-[#F2633B]'>
-							CODETELIBLE
+							CODETELIBLE S.A.C
 						</h2>
 						<p className='mb-5  sm:text-lg '>
-							Expertos en diseño, desarrollo de software y
-							actualmente en las venta de <br />
-							<span className='text-[#F2633B]'>
+							Expertos en diseño, desarrollo de software y venta
+							de <br />
+							<span className='text-[#F2633B] font-medium'>
 								VPS + dominio incluido
 							</span>
 						</p>
@@ -26,7 +26,7 @@ function App() {
 					<div className='grilla'>
 						{cards.map((card) => (
 							<div className='flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-300 shadow-md xl:p-8'>
-								<h3 className='mb-4 text-2xl font-bold text-[#F2633B]'>
+								<h3 className='mb-4 text-2xl font-bold text-[#F2633B] uppercase'>
 									{card.titulo}
 								</h3>
 								<p className='sm:text-lg opacity-70'>
@@ -65,12 +65,12 @@ function App() {
 										)
 									)}
 								</ul>
-								<a
+								{/* <a
 									href='#'
 									className='text-[#F2633B] bg-gray-100 hover:bg-[#F2633B] hover:text-white focus:ring-4 focus:ring-primary-200 font-medium rounded-lg px-5 py-2.5 text-center'
 								>
 									Obtener!
-								</a>
+								</a> */}
 							</div>
 						))}
 					</div>
